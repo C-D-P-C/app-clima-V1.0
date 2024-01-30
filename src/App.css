@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: rgb(1, 4, 43);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  object-fit: contain;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.app {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-menu {
+  text-align: center;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.language-button {
+  background-color: rgb(1, 4, 43);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.language-button:hover {
+  transform: scale(1.1);
+  box-shadow: -2px 2px 5px black;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
